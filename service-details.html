@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Service Details - SL TECH SOLUTIONS</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: eNno
+  * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">SL TECH SOLUTIONS</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="./index.html#hero">Home</a></li>
+          <li><a href="./index.html#about">About</a></li>
+          <li><a href="./index.html#services">Services</a></li>
+          <li><a href="./index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Service Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Service Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4>Services List</h4>
+              <div class="services-list">
+                <a href="#" class="active" id="internships" onclick="activateLink(this); showDetails('internships')">
+                  <i class="bi bi-arrow-right-circle"></i><span>Internships</span>
+                </a>
+                <a href="#" id="workshops" onclick="activateLink(this); showDetails('workshops')">
+                  <i class="bi bi-arrow-right-circle"></i><span>Workshops</span>
+                </a>
+                <a href="#" id="training" onclick="activateLink(this); showDetails('training')">
+                  <i class="bi bi-arrow-right-circle"></i><span>Training</span>
+                </a>
+                <a href="#" id="projects" onclick="activateLink(this); showDetails('projects')">
+                  <i class="bi bi-arrow-right-circle"></i><span>Projects</span>
+                </a>
+              </div>
+              
+            </div>
+          
+          
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Have a Question?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+91-8341475919</span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:sltechsolutions@gmail.com">sltechhsolutions@gmail.com</a></p>
+            </div>
+          
+          </div>
+          
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200" id="service-details">
+            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+            <h3 id="service-title">Welcome to SL Tech Solutions</h3>
+            <p id="service-description">
+              Please select a service from the list to view detailed information.
+            </p>
+            <div id="card-container" class="d-flex flex-wrap justify-content-between">
+              <!-- Video will be embedded here dynamically -->
+            </div>
+            <div id="service-video-container">
+              <!-- Video will be embedded here dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">SL TECH SOLUTIONS</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91-8341475919</span></p>
+            <p><strong>Email:</strong> <span>sltechhsolutions@gmail.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="./index.html#hero">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="./index.html#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="./index.html#services">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="./index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Intrenships</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Training</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Projects</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Workshops</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4 >Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="https://twitter.com/SLTechSolutions"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.youtube.com/channel/UCMD2TVVA3PPM3WxxfrE9dsQ"><i class="bi bi-youtube"></i></a>
+            <a href="https://instagram.com/sl_tech_solutions?igshid=ZjE2NGZiNDQ="><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/sl-techh-solutions/"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">SL TECH SOLUTIONS</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <a href="./assets/img/Projects/ML Project Ideas.pdf" class="wra"></a>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    function activateLink(clickedElement){
+      const links=document.querySelectorAll(".services-list a");
+      links.forEach((link)=>{
+        link.classList.remove("active");
+      })
+      clickedElement.classList.add("active");
+    }
+    
+    const servicesContent = {
+      internships: {
+        title: "Internships",
+        description: `SL Tech Solutions provides top-notch student internships in domains like Engineering, IT, Finance, Marketing, and Data Science. You can choose between face-to-face internships or our Best Online Summer Internship Trainings for hands-on experience and real-world exposure.`,
+        video: "https://www.youtube.com/embed/example-internship-video", // Replace with actual video link
+        files:[{name:"AI&ML Intrenship",path:"./assets/img/Intrenship/AI&ML Internship Circullum.pdf"},
+        {name:"Android Development Intrenship",path:"./assets/img/Intrenship/Android Development Internship Circullum.pdf"},
+        {name:"Cybersecurity Intrenship",path:"./assets/img/Intrenship/Cybersecurity Internship Circullum.pdf"},
+        {name:"Data Science Intrenship",path:"./assets/img/Intrenship/Data Science Internship Circullum.pdf"},
+        {name:"Digital Marketing And Content Creation Internship",path:"./assets/img/Intrenship/Digital Marketing And Content Creation Internship Circullum.pdf"},
+        {name:"Full-Stack Development Internship",path:"./assets/img/Intrenship/Full-Stack Development Internship Circullum.pdf"},
+        {name:"IOT Intrenship",path:"./assets/img/Intrenship/IOT Internship Circullum.pdf"},
+        {name:"Java Intrenship",path:"./assets/img/Intrenship/Java Internship Circullum.pdf"},
+        {name:"Project Management Internship",path:"./assets/img/Intrenship/Project Management Internship Circullum.pdf"},
+        {name:"Python Internship",path:"./assets/img/Intrenship/Python Internship Circullum.pdf"},
+        {name:"Robotics Internship",path:"./assets/img/Intrenship/Robotics Internship Circullum.pdf"},
+        {name:"UI&UX Design Internship",path:"./assets/img/Intrenship/UI&UX Design Internship Circullum.pdf"}]
+      },
+      workshops: {
+        title: "Workshops",
+        description: `Our workshops cover the latest in technology and skill development, including AI/ML, Web Development, Cybersecurity, and IoT. These sessions are tailored to enhance your expertise and creativity.`,
+        video: "https://www.youtube.com/embed/example-workshop-video",
+        files:[{name:"Android Development Workshop",path:"./assets/img/2-Day Android Development Workshop Plan.pdf"},
+        {name:"VLSI Workshop",path:"./assets/img/2-Day VLSI Workshop Plan.pdf"},
+        {name:"Flask Development Workshop",path:"./assets/img/2-Day Flask development Workshop Plan.pdf"},
+        {name:"IOT Workshop",path:"./assets/img/2-Day IOT Workshop Plan.pdf"},
+        {name:"MATLAB Workshop",path:"./assets/img/2-Day MATLAB Workshop Plan.pdf"},
+        {name:"AI&ML Workshop",path:"./assets/img//5-Day AIML Workshop Plan.pdf"},
+        {name:"Cloudcomputing Workshop",path:"./assets/img/5-Day Cloudcomputing Workshop Plan.pdf"},
+        {name:"Cybersecurity Workshop",path:"./assets/img/5-Day Cybersecurity Workshop Plan.pdf"},
+        {name:"Robotics Workshop",path:"./assets/img/2-Day Robotics Workshop Plan.pdf"},
+        {name:"Data Science Workshop",path:"./assets/img/5-Day Data Science Workshop Plan.pdf"},
+        {name:"Full Stack Workshop",path:"./assets/img/5-Day Full Stack Workshop Plan.pdf"},
+        {name:"Python Workshop",path:"./assets/img/5-Day Python Workshop Plan.pdf"}]
+      },
+      training: {
+        title: "Training",
+        description: `We offer industry-relevant training programs in cutting-edge technologies such as Machine Learning, Blockchain, IoT, and more. These are designed to bridge the gap between academic learning and professional demands.`,
+        video: "https://www.youtube.com/embed/example-training-video", // Replace with actual video link
+      },
+      projects: {
+        title: "Projects",
+        description: `SL Tech Solutions offers exciting project opportunities like AI-powered tools, IoT systems, and Blockchain applications. Work on real-world challenges to enhance your portfolio and gain practical experience.`,
+        video: "https://www.youtube.com/embed/example-project-video", // Replace with actual video link
+        files:[{name:"AI Project Ideas",path:"./assets/img/Projects/AI Project Ideas.pdf"},
+        {name:"B.Tech MAJOR Project Ideas",path:"./assets/img/Projects/B.Tech MAJOR Project Ideas.pdf"},
+        {name:"B.Tech MINI Project Ideas",path:"./assets/img/Projects/B.Tech MINI Project Ideas (1).pdf"},
+        {name:"Blockchain Project Ideas",path:"./assets/img/Projects/Blockchain Project Ideas.pdf"},
+        {name:"Cybersecurity Project Ideas",path:"./assets/img/Projects/Cybersecurity Project Ideas.pdf"},
+        {name:"Data Science Project Ideas",path:"./assets/img/Projects/Data Science Project Ideas.pdf"},
+        {name:"Deep Learning Project Ideas",path:"./assets/img/Projects/DL Project Ideas.pdf"},
+        {name:"IOT Project Ideas",path:"./assets/img/Projects/IOT Project Ideas.pdf"},
+        {name:"Machine Learning Project Ideas",path:"./assets/img/Projects/ML Project Ideas.pdf"}]
+      },
+    };
+    
+    document.addEventListener("DOMContentLoaded",()=>{
+      showDetails("internships");
+    })
+    function showDetails(serviceKey) {
+      const titleElement = document.getElementById("service-title");
+      const descriptionElement = document.getElementById("service-description");
+      const videoContainer = document.getElementById("service-video-container");
+      const container=document.getElementById("card-container")
+      container.innerHTML = "";
+  
+      if (servicesContent[serviceKey]) {
+        const service = servicesContent[serviceKey];
+        titleElement.textContent = service.title;
+        descriptionElement.textContent = service.description;
+        
+        for(var i=0;i<service.files.length;i++){
+          const card=document.createElement("div");
+          card.className="col-lg-5 shadow  m-2  p-2 d-flex flex-column justify-content-between";
+          const heading=document.createElement("h2");
+          heading.className="text-break"
+          const pdf=document.createElement("a");
+          heading.innerText=service.files[i].name;
+          pdf.href=service.files[i].path;
+          pdf.innerText="DOWNLOAD PDF";
+          pdf.download;
+          card.appendChild(heading);
+          card.appendChild(pdf);
+          container.append(card);
+        }
+        
+  
+        // Embed video
+        videoContainer.innerHTML = `
+          <div class="ratio ratio-16x9 mt-4">
+            <iframe src="${service.video}" frameborder="0" allowfullscreen></iframe>
+          </div>`;
+      }
+    }
+  </script>
+  
+
+</body>
+
+</html>
